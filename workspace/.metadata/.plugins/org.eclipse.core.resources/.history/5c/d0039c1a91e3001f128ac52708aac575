@@ -1,0 +1,25 @@
+package tw.demospringproject.config;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+import tw.demospringproject.model.LoginDao;
+import tw.demospringproject.model.LoginService;
+
+@Configuration
+public class RootAppConfig {
+
+	@Bean
+	public LoginDao loginDao() {
+		return new LoginDao();
+	}
+
+	public LoginService loginService2() {
+		LoginService ls = new LoginService();
+		ls.setLoginDao(loginDao());
+		boolean result2 = ls.checkLogin("mary", "12345");
+		System.out.println("result2:" + result2);
+
+	}
+
+}

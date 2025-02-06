@@ -1,0 +1,16 @@
+package tw.demospringproject.model;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+public class LoginService {
+
+	public LoginDao loginDao;
+	
+	public void setLoginDao(LoginDao loginDao) {
+		this.loginDao = loginDao;
+	}
+
+	public boolean checkLogin(String user,String pwd) {
+		return loginDao.checkLogin(user, pwd);
+	}
+}

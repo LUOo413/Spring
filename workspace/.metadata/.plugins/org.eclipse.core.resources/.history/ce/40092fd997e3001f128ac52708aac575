@@ -1,0 +1,5 @@
+package tw.demospringproject.config;
+
+public class DemoSpelAction {
+
+}
