@@ -1,0 +1,5 @@
+package tw.demospringproject.model;
+
+public class TruckBeanFactory {
+
+}

@@ -11,7 +11,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 class LoginServiceTest {
 
 	@Autowired
-	@Qualifier("loginService2")
+//	@Qualifier("loginService2")
+	@Qualifier("loginS2")
 	private LoginService loginService;
 
 	@Test

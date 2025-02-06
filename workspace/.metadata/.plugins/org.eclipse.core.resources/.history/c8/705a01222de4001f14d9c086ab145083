@@ -1,0 +1,13 @@
+package tw.demospringproject.model;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+public class PersonDao {
+
+	@Autowired
+	private Person p;
+
+	public void showInfo() {
+		System.out.println(p.getId() + " " + p.getName() + " " + p.getAge() + " " + p.getDate());
+	}
+}

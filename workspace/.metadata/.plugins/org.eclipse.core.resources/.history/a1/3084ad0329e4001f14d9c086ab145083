@@ -1,0 +1,30 @@
+package tw.demospringproject.config;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+import tw.demospringproject.model.LoginDao;
+import tw.demospringproject.model.LoginService;
+
+@Configuration
+public class RootAppConfig {
+
+	@Bean
+	public LoginDao loginDao() {
+		return new LoginDao();
+	}
+
+	@Bean
+	public LoginService loginService1() {
+		LoginService ls1 = new LoginService(loginDao());
+		return ls1;
+	}
+
+	@Bean
+	public LoginService loginService2() {
+		LoginService ls2 = new LoginService();
+		ls2.setLoginDao(loginDao());
+		return ls2;
+	}
+
+}

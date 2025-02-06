@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="EngineerTest" project="DemoSpringProject" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="tw.demospringproject.model.EngineerTest" time="0.539" displayname="EngineerTest" uniqueid="[engine:junit-jupiter]/[class:tw.demospringproject.model.EngineerTest]">
+    <testcase name="testCodeCheckAndFix" classname="tw.demospringproject.model.EngineerTest" time="0.539" displayname="testCodeCheckAndFix()" uniqueid="[engine:junit-jupiter]/[class:tw.demospringproject.model.EngineerTest]/[method:testCodeCheckAndFix()]"/>
+  </testsuite>
+</testrun>

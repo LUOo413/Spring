@@ -1,0 +1,29 @@
+package tw.demospringproject.model;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class PersonTest {
+
+	@Test
+	void testGetId() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testGetName() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testGetAge() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testGetDate() {
+		fail("Not yet implemented");
+	}
+
+}

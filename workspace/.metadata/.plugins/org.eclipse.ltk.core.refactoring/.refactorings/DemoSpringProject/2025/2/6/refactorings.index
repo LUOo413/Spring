@@ -10,3 +10,13 @@
 1738743926998	Extract local variable 'ectx'
 1738743939278	Extract local variable 'fish1'
 1738744105398	Extract local variable 'id'
+1738806265404	Extract local variable 'p1'
+1738806364298	Extract local variable 'p2'
+1738808058012	Extract local variable 'id'
+1738808085224	Extract local variable 'name'
+1738808108817	Extract local variable 'age'
+1738808129594	Extract local variable 'date'
+1738809623437	Extract local variable 'tBean'
+1738812631371	Encapsulate field 'map, ...'
+1738813261353	Extract local variable 'tBean'
+1738822899921	Delete element

@@ -1,0 +1,37 @@
+package tw.demospringproject.model;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class PersonTest {
+
+	@Autowired
+	@Qualifier("person2")
+	private Person person;
+
+	@Test
+	void testGetId() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testGetName() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testGetAge() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testGetDate() {
+		fail("Not yet implemented");
+	}
+
+}

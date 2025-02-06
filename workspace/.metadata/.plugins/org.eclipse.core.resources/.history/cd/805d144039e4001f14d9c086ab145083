@@ -1,0 +1,14 @@
+package tw.demospringproject.model;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class TruckBeanStaticFactoryTest {
+
+	@Test
+	void testGetTruckBean() {
+		fail("Not yet implemented");
+	}
+
+}
