@@ -16,6 +16,14 @@ public class Worker {
 		this.title = title;
 	}
 
+	public void init() {
+		System.out.println("init");
+	}
+
+	public void destroy() {
+		System.out.println("destroy");
+	}
+
 	public int getId() {
 		return id;
 	}

@@ -8,7 +8,7 @@ import org.springframework.stereotype.Repository;
 public class WorkerDao {
 
 	@Autowired //寫在屬性上
-	@Qualifier("worker1")
+	@Qualifier("worker2")
 	private Worker worker;
 
 	public WorkerDao() {

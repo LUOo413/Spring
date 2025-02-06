@@ -8,8 +8,10 @@ import org.springframework.beans.factory.config.PropertiesFactoryBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Scope;
 import org.springframework.core.io.ClassPathResource;
 
+import tw.demospringproject.model.Animal;
 import tw.demospringproject.model.LoginDao;
 import tw.demospringproject.model.LoginService;
 import tw.demospringproject.model.Person;
@@ -23,6 +25,15 @@ import tw.demospringproject.model.Worker;
 @ComponentScan(basePackages = "tw.demospringproject")
 public class RootAppConfig {
 	// 組態設定檔 註冊物件
+
+	@Bean
+	@Scope("singleton") // 預設
+	// @Scope("prototype")
+	public Animal animal() {
+		Animal a1 = new Animal(1, "Lion");
+		return a1;
+	}
+
 	@Bean
 	public PropertiesFactoryBean props() {
 		PropertiesFactoryBean p1 = new PropertiesFactoryBean();
@@ -30,13 +41,13 @@ public class RootAppConfig {
 		return p1;
 	}
 
-	@Bean
+	@Bean(initMethod = "init", destroyMethod = "destroy")
 	public Worker worker1() {
 		Worker worker = new Worker(101, "mary", "engineer");
 		return worker;
 	}
 
-	@Bean
+	@Bean(initMethod = "init", destroyMethod = "destroy")
 	public Worker worker2() {
 		Worker worker = new Worker(102, "judy", "sales");
 		return worker;

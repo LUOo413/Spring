@@ -2,15 +2,19 @@ package tw.demospringproject.model;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Component;
 
 @Component
+@PropertySource("classpath:tree.properties")
 public class TreeBean {
-
-	@Value("#{props.name}")
+	
+	// @Value("#{props.name}")
+	@Value("${name}")
 	private String name;
-
-	@Value("#{props.age}")
+	
+	// @Value("#{props.age}")
+	@Value("${age}")
 	private int age;
 
 	public String getName() {
