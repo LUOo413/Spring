@@ -1,0 +1,137 @@
+package tw.demospringproject.config;
+
+import java.time.Period;
+import java.util.Date;
+import java.util.HashMap;
+
+import org.springframework.beans.factory.config.PropertiesFactoryBean;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Scope;
+import org.springframework.core.io.ClassPathResource;
+
+import tw.demospringproject.model.Animal;
+import tw.demospringproject.model.LoginDao;
+import tw.demospringproject.model.LoginService;
+import tw.demospringproject.model.Person;
+import tw.demospringproject.model.TruckBean;
+import tw.demospringproject.model.TruckBeanFactory;
+import tw.demospringproject.model.TruckBeanStaticFactory;
+import tw.demospringproject.model.Worker;
+
+@Configuration
+//@ComponentScan(basePackages = {"tw.demospringproject","tw.demospringproject.model"})
+@ComponentScan(basePackages = "tw.demospringproject")
+public class RootAppConfig {
+	// 組態設定檔 註冊物件
+
+	@Bean(initMethod = "init", destroyMethod = "destroy")
+	@Scope("singleton") // 預設
+//	 @Scope("prototype")
+	public Animal animal() {
+		Animal a1 = new Animal(1, "Lion");
+		return a1;
+	}
+
+	@Bean
+	public PropertiesFactoryBean props() {
+		PropertiesFactoryBean p1 = new PropertiesFactoryBean();
+		p1.setLocation(new ClassPathResource("tree.properties"));
+		return p1;
+	}
+
+//	@Bean(initMethod = "init", destroyMethod = "destroy")
+	@Bean
+	public Worker worker1() {
+		Worker worker = new Worker(101, "mary", "engineer");
+		return worker;
+	}
+
+//	@Bean(initMethod = "init", destroyMethod = "destroy")
+	@Bean
+	public Worker worker2() {
+		Worker worker = new Worker(102, "judy", "sales");
+		return worker;
+	}
+
+	@Bean
+	public TruckBean ferrariTruck() {
+		TruckBeanFactory factory = truckBeanFactory();
+		return factory.getTruckBean(5);
+	}
+
+	@Bean
+	public TruckBean subaruTruck() {
+		TruckBeanFactory factory = truckBeanFactory();
+		return factory.getTruckBean(6);
+	}
+
+	@Bean
+	public TruckBeanFactory truckBeanFactory() {
+		HashMap<Integer, TruckBean> maps = new HashMap<Integer, TruckBean>();
+		maps.put(5, new TruckBean(7, "ferrari"));
+		maps.put(6, new TruckBean(8, "subaru"));
+
+		TruckBeanFactory tBean = new TruckBeanFactory();
+		tBean.setMap(maps);
+
+		return tBean;
+	}
+
+	@Bean
+	public TruckBean nissanTruck() {
+		return TruckBeanStaticFactory.getTruckBean(2);
+	}
+
+	@Bean
+	public TruckBean toyotaTruck() {
+		return TruckBeanStaticFactory.getTruckBean(1);
+	}
+
+	@Bean
+	public TruckBean truckBean() {
+		TruckBean tBean = new TruckBean(1, "Honda");
+		return tBean;
+	}
+
+	@Bean
+	public Date date1() {
+		return new Date();
+	}
+
+	@Bean // contuct di
+	public Person person1() {
+		Person p1 = new Person(1, "eric", 25, date1());
+		return p1;
+	}
+
+	@Bean // setter di
+	public Person person2() {
+		Person p2 = new Person();
+		p2.setId(2);
+		p2.setName("rose");
+		p2.setAge(32);
+		p2.setDate(date1());
+		return p2;
+	}
+
+	@Bean
+	public LoginDao loginDao() {
+		return new LoginDao();
+	}
+
+	@Bean(name = "loginS1")
+	public LoginService loginService1() {
+		LoginService ls1 = new LoginService(loginDao());
+		return ls1;
+	}
+
+	@Bean(name = "loginS2")
+	public LoginService loginService2() {
+		LoginService ls2 = new LoginService();
+		ls2.setLoginDao(loginDao());
+		return ls2;
+	}
+
+}

@@ -1,0 +1,31 @@
+package tw.demospringproject.model;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import java.util.List;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class UsersServiceTest {
+
+	@Autowired
+	private UsersService uService;
+
+	@Test
+	void testSelectByIdAndName() {
+		Users resultBean = uService.selectByIdAndName(2, "john");
+		System.out.println(resultBean.getId() + " " + resultBean.getName());
+
+	}
+
+	void testSelectAll() {
+		List<Users> lists = uService.selectAll();
+		for (Users u : lists) {
+			System.out.println(u.getId() + " " + u.getName());
+		}
+	}
+
+}

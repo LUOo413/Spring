@@ -28,5 +28,13 @@ public class Animal {
 	public void setName(String name) {
 		this.name = name;
 	}
+	
+//	public void init() {
+//		System.out.println("init animal");
+//	}
+//	
+//	public void destroy() {
+//		System.out.println("destroy animal");
+//	}
 
 }

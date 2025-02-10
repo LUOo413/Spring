@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="LoginServiceTest" project="DemoSpringProject" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="tw.demospringproject.model.LoginServiceTest" time="0.566" displayname="LoginServiceTest" uniqueid="[engine:junit-jupiter]/[class:tw.demospringproject.model.LoginServiceTest]">
-    <testcase name="testCheckLogin" classname="tw.demospringproject.model.LoginServiceTest" time="0.566" displayname="testCheckLogin()" uniqueid="[engine:junit-jupiter]/[class:tw.demospringproject.model.LoginServiceTest]/[method:testCheckLogin()]"/>
-  </testsuite>
-</testrun>

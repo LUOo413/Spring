@@ -1,0 +1,48 @@
+package tw.demospringproject.model;
+
+import static org.junit.jupiter.api.Assertions.fail;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class BirdServiceTest {
+
+	@Autowired
+	private BirdService birdService;
+
+	@Test
+	void testInsert() {
+		Bird insertBean = new Bird("BlueBird", "S", "blue", 5);
+		Bird resultBean = birdService.insert(insertBean);
+		System.out.println(resultBean.getBid() + "" + resultBean.getBname() + "" + resultBean.getSize() + ""
+				+ resultBean.getColor() + "" + resultBean.getAge());
+		;
+	}
+
+	@Test
+	void testUpdate() {
+		Bird updateBean = new Bird(102, "SunBird", "M", "yellow", 12);
+		Bird resultBean = birdService.insert(updateBean);
+		System.out.println(resultBean.getBid() + "" + resultBean.getBname() + "" + resultBean.getSize() + ""
+				+ resultBean.getColor() + "" + resultBean.getAge());
+		;
+	}
+
+	@Test
+	void testDeleteById() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testSelectById() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testSelectAll() {
+		fail("Not yet implemented");
+	}
+
+}

@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="PersonServiceTest" project="DemoSpringProject" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="tw.demospringproject.model.PersonServiceTest" time="0.629" displayname="PersonServiceTest" uniqueid="[engine:junit-jupiter]/[class:tw.demospringproject.model.PersonServiceTest]">
-    <testcase name="testShowInfo" classname="tw.demospringproject.model.PersonServiceTest" time="0.629" displayname="testShowInfo()" uniqueid="[engine:junit-jupiter]/[class:tw.demospringproject.model.PersonServiceTest]/[method:testShowInfo()]"/>
-  </testsuite>
-</testrun>

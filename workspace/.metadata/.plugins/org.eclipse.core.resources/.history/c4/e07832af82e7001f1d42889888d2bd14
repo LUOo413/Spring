@@ -1,0 +1,17 @@
+package tw.demospringproject.model;
+
+import java.util.List;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+
+public interface UsersRepository extends JpaRepository<Users, Integer> {
+
+	public Users findByIdAndName(Integer id, String name);
+
+	@Query(value = "select * from Users", nativeQuery = true)
+	public List<Users> findAll();
+
+	@Query(value = "select * from Users where id > ?1 ", nativeQuery = true)
+	public List<Users> findAll2(Integer id);
+}

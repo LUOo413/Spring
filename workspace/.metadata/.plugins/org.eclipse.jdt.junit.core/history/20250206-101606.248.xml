@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="PersonTest" project="DemoSpringProject" tests="4" started="4" failures="0" errors="0" ignored="0">
-  <testsuite name="tw.demospringproject.model.PersonTest" time="0.596" displayname="PersonTest" uniqueid="[engine:junit-jupiter]/[class:tw.demospringproject.model.PersonTest]">
-    <testcase name="testGetId" classname="tw.demospringproject.model.PersonTest" time="0.578" displayname="testGetId()" uniqueid="[engine:junit-jupiter]/[class:tw.demospringproject.model.PersonTest]/[method:testGetId()]"/>
-    <testcase name="testGetDate" classname="tw.demospringproject.model.PersonTest" time="0.013" displayname="testGetDate()" uniqueid="[engine:junit-jupiter]/[class:tw.demospringproject.model.PersonTest]/[method:testGetDate()]"/>
-    <testcase name="testGetName" classname="tw.demospringproject.model.PersonTest" time="0.002" displayname="testGetName()" uniqueid="[engine:junit-jupiter]/[class:tw.demospringproject.model.PersonTest]/[method:testGetName()]"/>
-    <testcase name="testGetAge" classname="tw.demospringproject.model.PersonTest" time="0.001" displayname="testGetAge()" uniqueid="[engine:junit-jupiter]/[class:tw.demospringproject.model.PersonTest]/[method:testGetAge()]"/>
-  </testsuite>
-</testrun>

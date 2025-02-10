@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="UsersServiceTest" project="DemoSpringProject" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="tw.demospringproject.model.UsersServiceTest" time="0.455" displayname="UsersServiceTest" uniqueid="[engine:junit-jupiter]/[class:tw.demospringproject.model.UsersServiceTest]">
+    <testcase name="testSelectByIdAndName" classname="tw.demospringproject.model.UsersServiceTest" time="0.455" displayname="testSelectByIdAndName()" uniqueid="[engine:junit-jupiter]/[class:tw.demospringproject.model.UsersServiceTest]/[method:testSelectByIdAndName()]">
+      <error>java.lang.NullPointerException: Cannot invoke "tw.demospringproject.model.Users.getId()" because "resultBean" is null&#13;
+	at tw.demospringproject.model.UsersServiceTest.testSelectByIdAndName(UsersServiceTest.java:18)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+</error>
+    </testcase>
+  </testsuite>
+</testrun>

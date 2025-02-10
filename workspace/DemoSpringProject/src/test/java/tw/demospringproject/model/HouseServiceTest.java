@@ -1,0 +1,38 @@
+package tw.demospringproject.model;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import java.util.List;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class HouseServiceTest {
+
+	@Autowired
+	private HouseService houseService;
+
+	@Test
+	void testSelectById() {
+		House hBean = houseService.selectById(1000);
+
+		if (hBean != null) {
+			System.out.println(hBean.getHouseid() + " " + hBean.getHousename());
+
+		} else {
+			System.out.println("no result");
+		}
+
+	}
+
+	@Test
+	void testSelectAll() {
+		List<House> lists = houseService.selectAll();
+		for (House house : lists) {
+			System.out.println(house.getHouseid() + " " + house.getHousename());
+		}
+	}
+
+}

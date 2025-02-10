@@ -1,0 +1,24 @@
+package tw.demospringproject.model;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+@Service
+@Transactional
+public class HouseService {
+
+	@Autowired
+	private HouseDao houseDao;
+
+	public House selectById(Integer id) {
+		return houseDao.selectById(id);
+	}
+
+	public List<House> selectAll() {
+		return houseDao.selectAll();
+	}
+
+}

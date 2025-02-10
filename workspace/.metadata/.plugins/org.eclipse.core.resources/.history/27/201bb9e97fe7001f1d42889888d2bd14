@@ -1,0 +1,22 @@
+package tw.demospringproject.model;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class UsersServiceTest {
+
+	@Autowired
+	private UsersService uService;
+
+	@Test
+	void testSelectByIdAndName() {
+		Users resultBean = uService.selectByIdAndName(1, "john");
+		System.out.println(resultBean.getId() + " " + resultBean.getName());
+
+	}
+
+}

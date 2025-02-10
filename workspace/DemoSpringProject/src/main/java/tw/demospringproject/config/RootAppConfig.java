@@ -26,9 +26,9 @@ import tw.demospringproject.model.Worker;
 public class RootAppConfig {
 	// 組態設定檔 註冊物件
 
-	@Bean
-	@Scope("singleton") // 預設
-	// @Scope("prototype")
+	@Bean(initMethod = "init", destroyMethod = "destroy")
+//	@Scope("singleton") // 預設
+	 @Scope("prototype")
 	public Animal animal() {
 		Animal a1 = new Animal(1, "Lion");
 		return a1;
@@ -41,13 +41,15 @@ public class RootAppConfig {
 		return p1;
 	}
 
-	@Bean(initMethod = "init", destroyMethod = "destroy")
+//	@Bean(initMethod = "init", destroyMethod = "destroy")
+	@Bean
 	public Worker worker1() {
 		Worker worker = new Worker(101, "mary", "engineer");
 		return worker;
 	}
 
-	@Bean(initMethod = "init", destroyMethod = "destroy")
+//	@Bean(initMethod = "init", destroyMethod = "destroy")
+	@Bean
 	public Worker worker2() {
 		Worker worker = new Worker(102, "judy", "sales");
 		return worker;

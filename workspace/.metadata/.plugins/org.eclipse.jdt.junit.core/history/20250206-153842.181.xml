@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="TreeBeanTest" project="DemoSpringProject" tests="2" started="2" failures="0" errors="0" ignored="0">
-  <testsuite name="tw.demospringproject.model.TreeBeanTest" time="0.558" displayname="TreeBeanTest" uniqueid="[engine:junit-jupiter]/[class:tw.demospringproject.model.TreeBeanTest]">
-    <testcase name="testGetName" classname="tw.demospringproject.model.TreeBeanTest" time="0.556" displayname="testGetName()" uniqueid="[engine:junit-jupiter]/[class:tw.demospringproject.model.TreeBeanTest]/[method:testGetName()]"/>
-    <testcase name="testGetAge" classname="tw.demospringproject.model.TreeBeanTest" time="0.002" displayname="testGetAge()" uniqueid="[engine:junit-jupiter]/[class:tw.demospringproject.model.TreeBeanTest]/[method:testGetAge()]"/>
-  </testsuite>
-</testrun>

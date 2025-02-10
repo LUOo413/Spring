@@ -1,0 +1,34 @@
+package tw.demospringproject.model;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class BirdServiceTest {
+
+	@Test
+	void testInsert() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testUpdate() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testDeleteById() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testSelectById() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testSelectAll() {
+		fail("Not yet implemented");
+	}
+
+}

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="BirdServiceTest" project="DemoSpringProject" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="tw.demospringproject.model.BirdServiceTest" time="0.44" displayname="BirdServiceTest" uniqueid="[engine:junit-jupiter]/[class:tw.demospringproject.model.BirdServiceTest]">
+    <testcase name="testSelectAll" classname="tw.demospringproject.model.BirdServiceTest" time="0.44" displayname="testSelectAll()" uniqueid="[engine:junit-jupiter]/[class:tw.demospringproject.model.BirdServiceTest]/[method:testSelectAll()]"/>
+  </testsuite>
+</testrun>

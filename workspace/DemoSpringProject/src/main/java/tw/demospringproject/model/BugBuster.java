@@ -5,9 +5,9 @@ import org.springframework.stereotype.Component;
 @Component
 public class BugBuster {
 
-	public BugBuster() {
-		System.out.println("Initial BugBuster");
-	}
+//	public BugBuster() {
+//		System.out.println("Initial BugBuster");
+//	}
 
 	public void scanBug() {
 		System.out.println("Scanning Bug");

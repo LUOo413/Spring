@@ -1,0 +1,7 @@
+package tw.demospringproject.model;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface BirdRepository extends JpaRepository<T, ID> {
+
+}

@@ -1,0 +1,12 @@
+spring.application.name=DemoSpringProject
+
+#SQL Server Setting
+spring.datasource.driver-class-name=com.microsoft.sqlserver.jdbc.SQLServerDriver
+spring.datasource.url=jdbc:sqlserver://localhost:1433;databaseName=LeonPower;encrypt=true;trustServerCertificate=true
+spring.datasource.username=watcher
+spring.datasource.password=P@ssw0
+
+#Spring JPA Setting:
+spring.jpa.database-platform=org.hibernate.dialect.SQLServerDialect
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.format_sql=truerd
