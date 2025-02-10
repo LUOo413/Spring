@@ -1761,3 +1761,81 @@
 2025-02-10 15:48:02,828 [Worker-81: Launching UsersServiceTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2025-02-10 15:48:02,829 [Worker-81: Launching UsersServiceTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2025-02-10 15:48:02,831 [Worker-81: Launching UsersServiceTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Action\workspace\DemoSpringProject\src\test\resources
+2025-02-10 16:10:25,220 [Worker-87: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: DemoSpringProject:DemoSpringProject:0.0.1-SNAPSHOT @ C:\Action\workspace\DemoSpringProject\pom.xml.
+2025-02-10 16:10:25,917 [Worker-87: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.pom
+2025-02-10 16:10:25,941 [Worker-87: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.pom
+2025-02-10 16:10:26,058 [Worker-87: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar
+2025-02-10 16:10:26,070 [Worker-87: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar
+2025-02-10 16:10:26,566 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-02-10 16:10:26,567 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-02-10 16:10:26,570 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Action\workspace\DemoSpringProject\src\test\resources
+2025-02-10 16:10:27,464 [Worker-92: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar
+2025-02-10 16:10:27,487 [Worker-92: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar
+2025-02-10 16:10:27,490 [Worker-92: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for aopalliance:aopalliance:1.0
+2025-02-10 16:10:28,090 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 16:10:28,098 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 16:10:28,102 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Action\workspace\DemoSpringProject\src\test\resources
+2025-02-10 16:10:40,210 [Worker-85: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-02-10 16:10:40,441 [Worker-85: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: DemoSpringProject:DemoSpringProject:0.0.1-SNAPSHOT @ C:\Action\workspace\DemoSpringProject\pom.xml.
+2025-02-10 16:10:40,839 [Worker-85: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DemoSpringProject/src/main/java
+2025-02-10 16:10:40,840 [Worker-85: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DemoSpringProject/src/main/resources
+2025-02-10 16:10:40,841 [Worker-85: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DemoSpringProject/src/main/resources
+2025-02-10 16:10:40,841 [Worker-85: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DemoSpringProject/src/test/java
+2025-02-10 16:10:40,842 [Worker-85: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DemoSpringProject/src/test/resources
+2025-02-10 16:10:40,978 [Worker-85: Updating Maven Project] INFO  o.e.m.jdt.internal.UnitTestSupport - Reset launch configuration name: AnimalTest
+2025-02-10 16:10:40,978 [Worker-85: Updating Maven Project] INFO  o.e.m.jdt.internal.UnitTestSupport - Updating AnimalTest from maven configuration
+2025-02-10 16:10:41,289 [Worker-85: Updating Maven Project] INFO  o.e.m.jdt.internal.UnitTestSupport - Reset launch configuration name: BirdServiceTest
+2025-02-10 16:10:41,289 [Worker-85: Updating Maven Project] INFO  o.e.m.jdt.internal.UnitTestSupport - Updating BirdServiceTest from maven configuration
+2025-02-10 16:10:41,292 [Worker-85: Updating Maven Project] INFO  o.e.m.jdt.internal.UnitTestSupport - Reset launch configuration name: EngineerTest
+2025-02-10 16:10:41,292 [Worker-85: Updating Maven Project] INFO  o.e.m.jdt.internal.UnitTestSupport - Updating EngineerTest from maven configuration
+2025-02-10 16:10:41,301 [Worker-85: Updating Maven Project] INFO  o.e.m.jdt.internal.UnitTestSupport - Reset launch configuration name: HouseServiceTest
+2025-02-10 16:10:41,301 [Worker-85: Updating Maven Project] INFO  o.e.m.jdt.internal.UnitTestSupport - Updating HouseServiceTest from maven configuration
+2025-02-10 16:10:41,309 [Worker-85: Updating Maven Project] INFO  o.e.m.jdt.internal.UnitTestSupport - Reset launch configuration name: LoginDaoTest
+2025-02-10 16:10:41,310 [Worker-85: Updating Maven Project] INFO  o.e.m.jdt.internal.UnitTestSupport - Updating LoginDaoTest from maven configuration
+2025-02-10 16:10:41,318 [Worker-85: Updating Maven Project] INFO  o.e.m.jdt.internal.UnitTestSupport - Reset launch configuration name: LoginServiceTest
+2025-02-10 16:10:41,318 [Worker-85: Updating Maven Project] INFO  o.e.m.jdt.internal.UnitTestSupport - Updating LoginServiceTest from maven configuration
+2025-02-10 16:10:41,325 [Worker-85: Updating Maven Project] INFO  o.e.m.jdt.internal.UnitTestSupport - Reset launch configuration name: LogProviderTest
+2025-02-10 16:10:41,325 [Worker-85: Updating Maven Project] INFO  o.e.m.jdt.internal.UnitTestSupport - Updating LogProviderTest from maven configuration
+2025-02-10 16:10:41,332 [Worker-85: Updating Maven Project] INFO  o.e.m.jdt.internal.UnitTestSupport - Reset launch configuration name: PersonDaoTest
+2025-02-10 16:10:41,332 [Worker-85: Updating Maven Project] INFO  o.e.m.jdt.internal.UnitTestSupport - Updating PersonDaoTest from maven configuration
+2025-02-10 16:10:41,340 [Worker-85: Updating Maven Project] INFO  o.e.m.jdt.internal.UnitTestSupport - Reset launch configuration name: PersonServiceTest
+2025-02-10 16:10:41,340 [Worker-85: Updating Maven Project] INFO  o.e.m.jdt.internal.UnitTestSupport - Updating PersonServiceTest from maven configuration
+2025-02-10 16:10:41,347 [Worker-85: Updating Maven Project] INFO  o.e.m.jdt.internal.UnitTestSupport - Reset launch configuration name: PersonTest
+2025-02-10 16:10:41,348 [Worker-85: Updating Maven Project] INFO  o.e.m.jdt.internal.UnitTestSupport - Updating PersonTest from maven configuration
+2025-02-10 16:10:41,355 [Worker-85: Updating Maven Project] INFO  o.e.m.jdt.internal.UnitTestSupport - Reset launch configuration name: TreeBeanTest
+2025-02-10 16:10:41,355 [Worker-85: Updating Maven Project] INFO  o.e.m.jdt.internal.UnitTestSupport - Updating TreeBeanTest from maven configuration
+2025-02-10 16:10:41,357 [Worker-85: Updating Maven Project] INFO  o.e.m.jdt.internal.UnitTestSupport - Reset launch configuration name: TruckBeanFactoryTest
+2025-02-10 16:10:41,358 [Worker-85: Updating Maven Project] INFO  o.e.m.jdt.internal.UnitTestSupport - Updating TruckBeanFactoryTest from maven configuration
+2025-02-10 16:10:41,365 [Worker-85: Updating Maven Project] INFO  o.e.m.jdt.internal.UnitTestSupport - Reset launch configuration name: TruckBeanStaticFactoryTest
+2025-02-10 16:10:41,365 [Worker-85: Updating Maven Project] INFO  o.e.m.jdt.internal.UnitTestSupport - Updating TruckBeanStaticFactoryTest from maven configuration
+2025-02-10 16:10:41,372 [Worker-85: Updating Maven Project] INFO  o.e.m.jdt.internal.UnitTestSupport - Reset launch configuration name: TruckBeanTest
+2025-02-10 16:10:41,372 [Worker-85: Updating Maven Project] INFO  o.e.m.jdt.internal.UnitTestSupport - Updating TruckBeanTest from maven configuration
+2025-02-10 16:10:41,379 [Worker-85: Updating Maven Project] INFO  o.e.m.jdt.internal.UnitTestSupport - Reset launch configuration name: WorkerServiceTest
+2025-02-10 16:10:41,379 [Worker-85: Updating Maven Project] INFO  o.e.m.jdt.internal.UnitTestSupport - Updating WorkerServiceTest from maven configuration
+2025-02-10 16:10:41,386 [Worker-85: Updating Maven Project] INFO  o.e.m.jdt.internal.UnitTestSupport - Reset launch configuration name: UsersServiceTest
+2025-02-10 16:10:41,386 [Worker-85: Updating Maven Project] INFO  o.e.m.jdt.internal.UnitTestSupport - Updating UsersServiceTest from maven configuration
+2025-02-10 16:10:41,496 [Worker-85: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2025-02-10 16:10:41,775 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 16:10:41,783 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 16:10:41,787 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Action\workspace\DemoSpringProject\src\test\resources
+2025-02-10 16:13:25,740 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 16:13:25,744 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 16:13:25,745 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Action\workspace\DemoSpringProject\src\test\resources
+2025-02-10 16:17:33,400 [Worker-97: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 16:17:33,405 [Worker-97: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 16:17:33,409 [Worker-97: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Action\workspace\DemoSpringProject\src\test\resources
+2025-02-10 16:23:47,100 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 16:23:47,106 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 16:23:47,110 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Action\workspace\DemoSpringProject\src\test\resources
+2025-02-10 16:24:22,926 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 16:24:22,930 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 16:24:22,932 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Action\workspace\DemoSpringProject\src\test\resources
+2025-02-10 16:34:22,559 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 16:34:22,567 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 16:34:22,570 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Action\workspace\DemoSpringProject\src\test\resources
+2025-02-10 16:34:53,842 [Worker-102: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 16:34:53,848 [Worker-102: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 16:34:53,851 [Worker-102: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Action\workspace\DemoSpringProject\src\test\resources
+2025-02-10 16:35:33,968 [Worker-104: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 16:35:33,972 [Worker-104: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 16:35:33,974 [Worker-104: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Action\workspace\DemoSpringProject\src\test\resources

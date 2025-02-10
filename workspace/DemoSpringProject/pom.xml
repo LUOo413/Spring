@@ -58,6 +58,12 @@
 <!--    		用較新的版本-->
     		<scope>runtime</scope> 
 		</dependency>
+		
+		<dependency>
+            <groupId>aopalliance</groupId>
+            <artifactId>aopalliance</artifactId>
+            <version>1.0</version>
+        </dependency>
 	</dependencies>
 
 	<build>

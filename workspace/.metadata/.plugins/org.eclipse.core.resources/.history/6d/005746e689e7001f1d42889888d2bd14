@@ -1,0 +1,47 @@
+package tw.demospringproject.model;
+
+import org.aspectj.lang.JoinPoint;
+import org.aspectj.lang.ProceedingJoinPoint;
+import org.aspectj.lang.annotation.AfterReturning;
+import org.aspectj.lang.annotation.Around;
+import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Before;
+import org.aspectj.lang.annotation.Pointcut;
+import org.springframework.stereotype.Component;
+
+@Component
+@Aspect
+public class LogAdvice {
+
+	@Pointcut(value = "execution(* tw.demospringproject.model.LoginService.selectBy*(..))")
+	public void pointcut1() {
+	}
+
+	@Before(value = "pointcut1()")
+	public void logBefore(JoinPoint p) {
+		System.out.println("before at" + p.getTarget().getClass() + " ");
+		System.out.println("Calling" + p.getSignature().getName() + " ");
+		System.out.println("using" + p.getArgs() + " ");
+		System.out.println("Before: go into JoinPoint method");
+	}
+
+	@Around(value = "pointcut1()")
+	public Object logAround(ProceedingJoinPoint p) throws Throwable {
+		System.out.print("Around at " + p.getTarget().getClass() + " ");
+		System.out.print("Calling " + p.getSignature().getName() + " ");
+		System.out.println("using " + p.getArgs()[0] + " ");
+		Object result = p.proceed();
+		System.out.println("Around result1:" + result);
+		return result;
+	}
+
+	@AfterReturning(pointcut = "pointcut1()", returning = "result")
+	public void logAfter(JoinPoint p, Object result) {
+		System.out.println("After JoinPoint method finished");
+		System.out.println("After result2:" + result);
+	}
+
+	public void logThrow(JoinPoint p, Exception e) {
+		System.out.println("e:" + e);
+	}
+}
