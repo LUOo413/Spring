@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="UsersServiceTest" project="DemoSpringProject" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="tw.demospringproject.model.UsersServiceTest" time="0.441" displayname="UsersServiceTest" uniqueid="[engine:junit-jupiter]/[class:tw.demospringproject.model.UsersServiceTest]">
-    <testcase name="testSelectByIdAndName" classname="tw.demospringproject.model.UsersServiceTest" time="0.441" displayname="testSelectByIdAndName()" uniqueid="[engine:junit-jupiter]/[class:tw.demospringproject.model.UsersServiceTest]/[method:testSelectByIdAndName()]"/>
-  </testsuite>
-</testrun>

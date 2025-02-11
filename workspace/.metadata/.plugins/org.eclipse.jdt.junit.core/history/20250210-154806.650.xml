@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="UsersServiceTest" project="DemoSpringProject" tests="2" started="2" failures="0" errors="0" ignored="0">
-  <testsuite name="tw.demospringproject.model.UsersServiceTest" time="0.486" displayname="UsersServiceTest" uniqueid="[engine:junit-jupiter]/[class:tw.demospringproject.model.UsersServiceTest]">
-    <testcase name="testSelectAll" classname="tw.demospringproject.model.UsersServiceTest" time="0.432" displayname="testSelectAll()" uniqueid="[engine:junit-jupiter]/[class:tw.demospringproject.model.UsersServiceTest]/[method:testSelectAll()]"/>
-    <testcase name="testSelectByIdAndName" classname="tw.demospringproject.model.UsersServiceTest" time="0.053" displayname="testSelectByIdAndName()" uniqueid="[engine:junit-jupiter]/[class:tw.demospringproject.model.UsersServiceTest]/[method:testSelectByIdAndName()]"/>
-  </testsuite>
-</testrun>
