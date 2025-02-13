@@ -1,9 +1,0 @@
-package tw.demospringproject.model;
-
-public class WorkerDao {
-
-	public WorkerDao() {
-		// TODO Auto-generated constructor stub
-	}
-
-}

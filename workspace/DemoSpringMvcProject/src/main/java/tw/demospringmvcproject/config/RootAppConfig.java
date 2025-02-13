@@ -12,7 +12,7 @@ import org.springframework.orm.hibernate5.LocalSessionFactoryBean;
 
 import com.zaxxer.hikari.HikariDataSource;
 
-//@Configuration
+@Configuration
 public class RootAppConfig {
 
 	@Bean

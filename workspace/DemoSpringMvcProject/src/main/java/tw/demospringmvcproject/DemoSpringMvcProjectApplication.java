@@ -8,10 +8,10 @@ import org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfigurat
 
 //使用springdatajpa就不用exclude了
 //RootAppConfig也不用@Configuration
-//@SpringBootApplication(exclude = { DataSourceAutoConfiguration.class,
-//		DataSourceTransactionManagerAutoConfiguration.class, HibernateJpaAutoConfiguration.class })
+@SpringBootApplication(exclude = { DataSourceAutoConfiguration.class,
+		DataSourceTransactionManagerAutoConfiguration.class, HibernateJpaAutoConfiguration.class })
 
-@SpringBootApplication
+//@SpringBootApplication
 public class DemoSpringMvcProjectApplication {
 
 	public static void main(String[] args) {

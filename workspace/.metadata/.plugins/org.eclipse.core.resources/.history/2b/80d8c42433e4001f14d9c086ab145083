@@ -1,9 +1,0 @@
-package tw.demospringproject.model;
-
-public class TruckBean {
-
-	public TruckBean() {
-		// TODO Auto-generated constructor stub
-	}
-
-}

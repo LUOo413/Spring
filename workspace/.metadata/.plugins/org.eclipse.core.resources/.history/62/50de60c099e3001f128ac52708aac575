@@ -1,9 +1,0 @@
-package tw.demospringproject.model;
-
-public class Fish {
-
-	public Fish() {
-		// TODO Auto-generated constructor stub
-	}
-
-}
